@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;900&display=swap');
 
 body {
     height: 100vh;
@@ -12,13 +12,13 @@ body {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
-    padding: 0 128px;
 }
 
 .header {
     justify-content: space-between;
     align-content: center;
     flex: 0 0 72px;
+    padding: 0 12.5vw;
 }
 
 .logo {
@@ -45,3 +45,52 @@ a {
     text-decoration: none;
 }
 
+.hero {
+    justify-content: center;
+    align-content: center;
+    padding: 128px 12.5vw;
+    gap: 72px;
+}
+
+.left, .placeholder {
+    flex: 1;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero_main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero_secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero button {
+    background-color: #3882f6;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    border: none;
+    color: #e5e7eb;
+    font-family: inherit;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.placeholder {
+    border-radius: 10px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
