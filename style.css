@@ -26,6 +26,7 @@ body > div {
     justify-content: space-between;
     align-content: center;
     display: flex;
+    padding: 16px;
 }
 
 .logo {
