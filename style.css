@@ -71,20 +71,24 @@ a {
     color: #e5e7eb;
 }
 
-.hero button {
+button {
     background-color: #3882f6;
     width: 150px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 8px;
-    border: none;
-    color: #e5e7eb;
-    font-family: inherit;
     border-radius: 5px;
+    font-family: inherit;
     font-size: 18px;
     font-weight: 500;
+    color: inherit;
+    border: solid;
+}
+
+.hero button {
+    margin-top: 8px;
+    border: none;
 }
 
 .placeholder {
@@ -114,11 +118,13 @@ a {
     flex-wrap: wrap;
     gap: 32px;
     padding-bottom: 128px;
+    justify-content: center;
 }
 
 .tile {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 16px;
     width: 160px;
     text-align: center;
@@ -129,8 +135,8 @@ a {
 .tile > .image {
     border: 4px solid #3882f6;
     border-radius: 15px;
-    height: 160px;
-    width: 160px;
+    height: 152px;
+    width: 152px;
 }
 
 .quote {
@@ -138,7 +144,7 @@ a {
     flex-direction: column;
     background-color: #e5e7eb;
     color: #1f2937;
-    padding: 128px 16vw;
+    padding: 128px 20vw;
 }
 
 .speech {
@@ -152,4 +158,31 @@ a {
     align-self: flex-end;
     font-size: 24px;
     font-weight: 900;
+}
+
+.test {
+    padding: 128px 12.5vw;
+}
+
+.footer {
+    background-color: #3882f6;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 64px;
+}
+
+.footer button {
+    border-color: white;
+}
+
+.tagline {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.subtext {
+    font-size: 18px;
 }
